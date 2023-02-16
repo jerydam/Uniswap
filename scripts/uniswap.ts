@@ -82,17 +82,6 @@ async function main() {
   console.log(`Dai balance After ETH${holderBalanceAfterETH}`);
 }
 
-// 150,000 000 000 000 000 000 000
-
-//150 014 568 346 647 994 343 514
-
-// 150 000 000 000 000 000 000 249
-
-// 15,110,085 000 000 000 000 000 000
-//15,110 185 000 000 000 000 000 000
-
-// We recommend this pattern to be able to use async/await everywhere
-// and properly handle errors.
 main().catch((error) => {
   console.error(error);
   process.exitCode = 1;
